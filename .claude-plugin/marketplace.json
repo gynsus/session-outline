@@ -1,0 +1,15 @@
+{
+  "name": "session-outline",
+  "description": "Session outline side pane for Claude Code.",
+  "owner": {
+    "name": "gynsus",
+    "url": "https://github.com/gynsus"
+  },
+  "plugins": [
+    {
+      "name": "session-outline",
+      "source": "./",
+      "description": "Session outline side pane for Claude Code: prompts, answer headings, changed files, diffs and problem markers — click to jump in the chat."
+    }
+  ]
+}

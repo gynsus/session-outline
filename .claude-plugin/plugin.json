@@ -1,0 +1,33 @@
+{
+  "name": "session-outline",
+  "version": "0.1.0",
+  "description": "Session outline side pane for Claude Code: prompts, answer headings, changed files, diffs and problem markers — click to jump in the chat.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Interface language",
+      "description": "auto: Claude Code 'language' setting, then the language of your prompts, then $LANG",
+      "default": "auto",
+      "options": [
+        "auto",
+        "en",
+        "ru"
+      ]
+    }
+  },
+  "author": {
+    "name": "gynsus",
+    "url": "https://github.com/gynsus"
+  },
+  "homepage": "https://github.com/gynsus/session-outline",
+  "repository": "https://github.com/gynsus/session-outline",
+  "license": "MIT",
+  "keywords": [
+    "outline",
+    "navigation",
+    "pane",
+    "history",
+    "diff"
+  ]
+}
